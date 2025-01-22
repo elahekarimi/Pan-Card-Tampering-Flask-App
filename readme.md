@@ -1,14 +1,30 @@
-Step to run application:
-Step 1:	Create the copy of the project.
-Step 2: Open command prompt and change your current path 
-to folder where you can find 'app.py' file.
-Step 3: Create environment by command given below-
-conda create -name <environment name>
-Step 4: Activate environment by command as follows-
-conda activate <environment name>
-Step 5: Use command below to install required dependencies-
-python -m pip install -r requirements.txt
-Step 6: Run application by command;
-python app.py
-You will get url copy it and paste in browser.
-Step 7: You have sample_data folder where you can get images to test.
+# How to Run the Application
+
+## Steps to Run:
+
+1. Create a copy of the project.
+
+2. Open the command prompt and change your current path to the folder where the `app.py` file is located.
+
+3. Create a virtual environment using the command below:
+   ```bash
+   conda create -name <environment name>
+   ```
+
+4. Activate the virtual environment using the command:
+   ```bash
+   conda activate <environment name>
+   ```
+
+5. Install the required dependencies with the following command:
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+6. Run the application using:
+   ```bash
+   python app.py
+   ```
+   You will get a URL. Copy it and paste it into your browser.
+
+7. Check the `sample_data` folder for images you can use for testing.
